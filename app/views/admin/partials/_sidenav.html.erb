@@ -1,0 +1,75 @@
+<div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+  <div class="menu_section">
+    <ul class="nav side-menu">
+      <li>
+        <a>
+          <i class="fa fa-home"></i> <%= t ".home" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+        <ul class="nav child_menu" style="display: none">
+          <li><%= link_to t(".introduces"), admin_introduces_path %></li>
+          <li><%= link_to t(".menu"), admin_menus_path %></li>
+          <li><%= link_to t(".slide"), admin_slides_path %></li>
+        </ul>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-list-alt"></i> <%= t ".product" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+        <ul class="nav child_menu" style="display: none">
+          <li><%= link_to t(".group_product"), admin_group_products_path %></li>
+          <li><%= link_to t(".product"), admin_products_path %></li>
+        </ul>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-address-book-o"></i> <%= t ".customer" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+        <ul class="nav child_menu" style="display: none">
+          <li><a href="index.html"><%= t ".customer" %></a></li>
+          <li><a href="index2.html"><%= t ".contact" %></a></li>
+        </ul>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-fw fa-pencil-square-o"></i> <%= t ".order" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-fw fa-table"></i> <%= t ".new" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+        <ul class="nav child_menu" style="display: none">
+          <li><a href="index.html"><%= t ".type_new" %></a></li>
+          <li><a href="index2.html"><%= t ".new" %></a></li>
+        </ul>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-user-circle"></i> <%= t ".advertises" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+        <ul class="nav child_menu" style="display: none">
+          <li><a href="index.html"><%= t ".advertises" %></a></li>
+          <li><a href="index2.html"><%= t ".advertisers" %></a></li>
+        </ul>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-users"></i> <%= t ".users" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+      </li>
+      <li>
+        <a>
+          <i class="fa fa-fw fa-bar-chart-o"></i> <%= t ".statistics" %>
+          <span class="fa fa-chevron-down"></span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
